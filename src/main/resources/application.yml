@@ -1,0 +1,9 @@
+server:
+  port: 8888
+  context-path: /
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/base?useUnicodex=true&amp;characterEncoding=utf8?useSSL=false
